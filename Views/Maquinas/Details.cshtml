@@ -1,0 +1,63 @@
+﻿@model PruebaGym2.Models.MaquinaDetailsViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalles</h1>
+
+<div>
+    <h4>Maquina</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Maquina.FechaCompra)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Maquina.FechaCompra)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Maquina.PrecioCompra)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Maquina.PrecioCompra)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Maquina.VidaUtil)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Maquina.VidaUtil)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Maquina.Disponible)
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                string disponibilidad = Model.Maquina.Disponible ? "Disponible" : "No disponible";
+            }
+            @Html.DisplayFor(model => disponibilidad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Maquina.Local)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Maquina.Local.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Maquina.TipoMaquina.NombreTipo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Maquina.TipoMaquina.NombreTipo)
+        </dd>
+        <dt class="col-sm-2">
+            Vida útil restante
+        </dt>
+        <dd class="col-sm-10">
+            @Model.VidaUtilRestante años
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Maquina.IdMaquina" class="btn btn-primary">Editar</a> 
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</div>

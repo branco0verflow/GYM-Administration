@@ -1,0 +1,73 @@
+﻿@model IEnumerable<PruebaGym2.Models.Local>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    
+    html, body, .container {
+        height: 100%;
+        background-color: #111111;
+        color: white;
+    }
+    
+    table.table th,
+    table.table td {
+        color: white; 
+    }
+</style>
+
+<h1>Locales</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear un nuevo local</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ciudad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Responsable)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ciudad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Responsable.Nombre)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdLocal" class="btn btn-primary">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.IdLocal" class="btn btn-secondary">Detalles</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdLocal" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

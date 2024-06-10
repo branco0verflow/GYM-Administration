@@ -1,0 +1,235 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PruebaGym2
+build_property.RootNamespace = PruebaGym2
+build_property.ProjectDir = C:\Users\brann\Desktop\Proyectos 2024\Programación 3\Santi 1.0\OProgramación3\PruebaGym2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\brann\Desktop\Proyectos 2024\Programación 3\Santi 1.0\OProgramación3\PruebaGym2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Ejercicios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWplcmNpY2lvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Ejercicios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWplcmNpY2lvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Ejercicios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWplcmNpY2lvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Ejercicios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWplcmNpY2lvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Ejercicios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWplcmNpY2lvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Locals/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Locals/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Locals/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Locals/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Locals/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Maquinas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFxdWluYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Maquinas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFxdWluYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Maquinas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFxdWluYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Maquinas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFxdWluYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Maquinas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFxdWluYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Responsables/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2FibGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Responsables/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2FibGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Responsables/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2FibGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Responsables/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2FibGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Responsables/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2FibGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/RutinaEjercicios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5hRWplcmNpY2lvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/RutinaEjercicios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5hRWplcmNpY2lvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/RutinaEjercicios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5hRWplcmNpY2lvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/RutinaEjercicios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5hRWplcmNpY2lvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/RutinaEjercicios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5hRWplcmNpY2lvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Rutinas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5hc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Rutinas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5hc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Rutinas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5hc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Rutinas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5hc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Rutinas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5hc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Rutinas/VerRutinasYEjercicios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0aW5hc1xWZXJSdXRpbmFzWUVqZXJjaWNpb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/SocioRutinas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaW9SdXRpbmFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/SocioRutinas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaW9SdXRpbmFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/SocioRutinas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaW9SdXRpbmFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/SocioRutinas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaW9SdXRpbmFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/SocioRutinas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaW9SdXRpbmFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Socios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Socios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Socios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Socios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Socios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/TipoMaquinas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb01hcXVpbmFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/TipoMaquinas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb01hcXVpbmFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/TipoMaquinas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb01hcXVpbmFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/TipoMaquinas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb01hcXVpbmFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/TipoMaquinas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb01hcXVpbmFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brann/Desktop/Proyectos 2024/Programación 3/Santi 1.0/OProgramación3/PruebaGym2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9517huydox

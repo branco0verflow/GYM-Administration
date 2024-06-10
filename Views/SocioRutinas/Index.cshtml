@@ -1,0 +1,48 @@
+﻿@model IEnumerable<PruebaGym2.Models.SocioRutina>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Socio - Rutina</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear una nueva relación socio - rutina</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Socio.NombreSocio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rutina.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calificacion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Socio.NombreSocio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rutina.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Calificacion)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { idSocio = item.IdSocio, idRutina = item.IdRutina }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("Details", "Details", new { idSocio = item.IdSocio, idRutina = item.IdRutina }, new { @class = "btn btn-secondary" })
+                    @Html.ActionLink("Delete", "Delete", new { idSocio = item.IdSocio, idRutina = item.IdRutina }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+﻿@model PruebaGym2.Models.SocioRutina
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>¿Estás seguro que quieres elimianar este registro?</h3>
+<div>
+    <h4>SocioRutina</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Socio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Socio.Mail)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Rutina)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Rutina.Descripcion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Calificacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Calificacion)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdSocio" />
+        <input type="hidden" asp-for="IdRutina" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-secondary">Volver</a>
+    </form>
+</div>

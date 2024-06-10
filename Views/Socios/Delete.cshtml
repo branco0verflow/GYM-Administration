@@ -1,0 +1,50 @@
+﻿@model PruebaGym2.Models.Socio
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>¿Estás seguro que quieres elimianar este registro?</h3>
+<div>
+    <h4>Socio</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NombreSocio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NombreSocio)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoSocio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TipoSocio)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefono)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Telefono)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Mail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Mail)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdLocal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IdLocal)
+        </dd>
+    </dl>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdSocio" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-secondary">Volver</a>
+    </form>
+</div>

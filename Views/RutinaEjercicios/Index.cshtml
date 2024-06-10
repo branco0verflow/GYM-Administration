@@ -1,0 +1,54 @@
+﻿@model IEnumerable<PruebaGym2.Models.RutinaEjercicio>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Rutina Ejercicio</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear una nueva rutina - ejercicio</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Rutina)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ejercicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Sets)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Repeticiones)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rutina.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ejercicio.NombreEjercicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sets)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Repeticiones)
+            </td>
+            <td>
+                    @Html.ActionLink("Editar", "Edit", new { idRutina = item.IdRutina, idEjercicio = item.IdEjercicio }, new { @class = "btn btn-primary" }) |
+                    @Html.ActionLink("Detalles", "Details", new { idRutina = item.IdRutina, idEjercicio = item.IdEjercicio }, new { @class = "btn btn-secondary" }) |
+                    @Html.ActionLink("Eliminar", "Delete", new { idRutina = item.IdRutina, idEjercicio = item.IdEjercicio }, new { @class = "btn btn-danger" })
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,56 @@
+﻿@model PruebaGym2.Models.MaquinasPorOrdenModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Máquinas</h1>
+
+<form asp-action="Index" method="get" class="form-inline align-items-center">
+    <div class="form-group d-flex align-items-center">
+        <h3>Ordenar máquinas por fecha de compra</h3>
+        <label asp-for="TipoOrden" class="control-label mr-2"></label>
+        <select asp-for="TipoOrden" asp-items="Model.OrdenList" class="form-control mr-2" style="width: auto;" onchange="this.form.submit()"></select>
+    </div>
+</form>
+
+<br />
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear una nueva máquina</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Maquinas.First().FechaCompra)</th>
+            <th>@Html.DisplayNameFor(model => model.Maquinas.First().PrecioCompra)</th>
+            <th>@Html.DisplayNameFor(model => model.Maquinas.First().VidaUtil)</th>
+            <th>@Html.DisplayNameFor(model => model.Maquinas.First().Disponible)</th>
+            <th>@Html.DisplayNameFor(model => model.Maquinas.First().Local)</th>
+            <th>@Html.DisplayNameFor(model => model.Maquinas.First().TipoMaquina.NombreTipo)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Maquinas)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.FechaCompra)</td>
+                <td>@Html.DisplayFor(modelItem => item.PrecioCompra)</td>
+                <td>@Html.DisplayFor(modelItem => item.VidaUtil)</td>
+                <td>@(item.Disponible ? "Disponible" : "No disponible")</td>
+                <td>@Html.DisplayFor(modelItem => item.Local.Nombre)</td>
+                <td>@Html.DisplayFor(modelItem => item.TipoMaquina.NombreTipo)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdMaquina" class="btn btn-primary">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.IdMaquina" class="btn btn-secondary">Detalles</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdMaquina" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+

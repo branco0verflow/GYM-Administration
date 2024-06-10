@@ -1,0 +1,50 @@
+﻿@model PruebaGym2.Models.SociosViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Socios</h1>
+
+<h3>Socios según tipo</h3>
+<form asp-action="Index" method="get" class="form-inline align-items-center">
+    <div class="form-group d-flex align-items-center">
+        <label asp-for="TipoSocio" class="control-label mr-2">Tipo de socio:</label>
+        <select asp-for="TipoSocio" asp-items="Model.TiposDeSocios" class="form-control mr-2" style="width: auto;" onchange="this.form.submit()">
+        </select>
+    </div>
+</form>
+<br />
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear un nuevo socio</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Socios.FirstOrDefault().NombreSocio)</th>
+            <th>@Html.DisplayNameFor(model => model.Socios.FirstOrDefault().TipoSocio)</th>
+            <th>@Html.DisplayNameFor(model => model.Socios.FirstOrDefault().Telefono)</th>
+            <th>@Html.DisplayNameFor(model => model.Socios.FirstOrDefault().Mail)</th>
+            <th>@Html.DisplayNameFor(model => model.Socios.FirstOrDefault().Local.Nombre)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Socios)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.NombreSocio)</td>
+                <td>@Html.DisplayFor(modelItem => item.TipoSocio)</td>
+                <td>@Html.DisplayFor(modelItem => item.Telefono)</td>
+                <td>@Html.DisplayFor(modelItem => item.Mail)</td>
+                <td>@Html.DisplayFor(modelItem => item.Local.Nombre)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdSocio" class="btn btn-primary">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.IdSocio" class="btn btn-secondary">Detalles</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdSocio" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

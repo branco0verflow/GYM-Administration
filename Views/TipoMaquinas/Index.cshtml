@@ -1,0 +1,41 @@
+﻿@model IEnumerable<PruebaGym2.Models.TipoMaquina>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Tipo de máquina</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear un nuevo tipo de máquina</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreTipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreTipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdTipoMaquina" class="btn btn-primary">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.IdTipoMaquina" class="btn btn-secondary">Detalles</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdTipoMaquina" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

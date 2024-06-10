@@ -1,0 +1,25 @@
+﻿@model IEnumerable<PruebaGym2.Models.Rutina>
+
+@{
+    ViewData["Title"] = "Ver Rutinas y Ejercicios";
+}
+
+<h1>Ver Rutinas y Ejercicios</h1>
+
+@foreach (var rutina in Model)
+{
+    <h2>@rutina.Descripcion</h2>
+    <ul>
+        @foreach (var rutinaEjercicio in rutina.RutinaEjercicios)
+        {
+            <li>
+                @rutinaEjercicio.Ejercicio.NombreEjercicio,
+                @rutinaEjercicio.Sets sets,
+                @rutinaEjercicio.Repeticiones repeticiones.
+            </li>
+        }
+    </ul>
+}
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</div>
